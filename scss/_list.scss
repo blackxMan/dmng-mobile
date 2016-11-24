@@ -1,0 +1,27 @@
+.side-menu-list{
+
+  display: block;
+  margin: 20px auto;
+
+  .side-menu-list-item{
+    display: block;
+    float:left;
+    width:50%;
+    background-color: transparent;
+    border: 0px;
+    text-align: center;
+
+    span{
+      color:#818080;
+      font-size:1.1em;
+      clear:both;
+
+    }
+
+    i{
+      margin: 0px auto 10px;
+    }
+
+  }
+
+}

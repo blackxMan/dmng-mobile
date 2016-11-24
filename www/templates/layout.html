@@ -1,0 +1,71 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content class="aviwest-side-menu-holder">
+
+    <ion-nav-bar class="bar-stable" style="background-color:#222222">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+        <span class="aviwest-logo">
+          <img src="./img/logo.png"/>
+        </span>
+      </ion-nav-buttons>
+
+      <ion-nav-buttons side="right">
+        <button class="button button-icon button-clear ion-android-notifications">
+        </button>
+        <button class="button button-icon button-clear ion-android-options">
+        </button>
+      </ion-nav-buttons>
+
+
+    </ion-nav-bar>
+
+    <ion-nav-view name="pageContent" class="aviwest-side-menu-page"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+    <ion-content class="sidebar-menu" style="background-color:#303030;">
+      <div class="info-login" style="overflow:hidden;width:195px;margin:65px auto 0px;">
+        <span class="info-login-img icons icon-man" style="display: block;border-radius:50%;background-color:#1a1a1a;float:left;">
+        </span>
+        <div class="info-login-text" style="display:block;width:120px;margin:0px;padding:10px 0px 0px 0px;text-align:left;float:left;margin-left:10px">
+          <span class="title" style="color:#646464;font-size:1.2em;clear:right">
+            Aviwest user
+          </span>
+          <a class="signout" style="color:#f4f2f2;font-size:1.1em;">sign out</a>
+        </div>
+      </div>
+      <ion-list class="side-menu-list">
+        <ion-item menu-close class="side-menu-list-item">
+          <i class="icons icon-streamhub"></i>
+          <span>Server</span>
+        </ion-item>
+        <ion-item menu-close class="side-menu-list-item">
+          <i class="icons icon-live"></i>
+          <span>Live</span>
+        </ion-item>
+        <ion-item menu-close class="side-menu-list-item">
+          <i class="icons icon-store"></i>
+          <span>Store</span>
+        </ion-item>
+        <ion-item menu-close class="side-menu-list-item">
+          <i class="icons icon-bgan"></i>
+          <span>Bgan</span>
+        </ion-item>
+        <ion-item menu-close class="side-menu-list-item">
+          <i class="icons icon-audio-video"></i>
+          <span>Audio-video</span>
+        </ion-item>
+        <ion-item menu-close class="side-menu-list-item">
+          <i class="icons icon-connectivite"></i>
+          <span>Connectivite</span>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+  <div class="panel-status">
+  </div>
+</ion-side-menus>

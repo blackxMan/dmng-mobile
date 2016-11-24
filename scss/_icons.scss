@@ -1,0 +1,351 @@
+/* icons style */
+.icons{
+  background-color: transparent;
+  background-position: 0px 0px;
+  font-size: 0px;
+  text-indent: -44444px;
+  display: block;
+  background-repeat: no-repeat;
+}
+
+
+
+.icon-man{
+  background-image: url('../img/xhdpi/icon-man.png');
+  width:112px;
+  height:112px;
+
+  @media screen and (-webkit-device-pixel-ratio: $xxxhdpi-ratio){
+    background-image: url('../img/xhdpi/icon-man.png');
+    width:96px;
+    height:96px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $xxhdpi-ratio) {
+    background-image: url('../img/xhdpi/icon-man.png');
+    width:96px;
+    height:96px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $xhdpi-ratio) {
+    background-image: url('../img/xhdpi/icon-man.png');
+    width:112px;
+    height:112px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $hdpi-ratio) {
+    background-image: url('../img/hdpi/icon-man.png');
+    width:72px;
+    height:72px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $mdpi-ratio) {
+    background-image: url('../img/mdpi/icon-man.png');
+    width: 54px;
+    height: 54px;
+    background-position: 4px 0px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $ldpi-ratio) {
+    background-image: url('../img/ldpi/icon-man.png');
+    width:36px;
+    height:36px;
+  }
+}
+
+.icon-streamhub{
+
+  background-image: url('../img/xhdpi/icon-stream-hub.png');
+  width:96px;
+  height:96px;
+
+  @media screen and (-webkit-device-pixel-ratio: $xxxhdpi-ratio) {
+    background-image: url('../img/xhdpi/icon-stream-hub.png');
+    width:96px;
+    height:96px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $xxhdpi-ratio) {
+    background-image: url('../img/xhdpi/icon-stream-hub.png');
+    width:96px;
+    height:96px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $xhdpi-ratio) {
+    background-image: url('../img/xhdpi/icon-stream-hub.png');
+    width:96px;
+    height:96px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $hdpi-ratio) {
+    background-image: url('../img/hdpi/icon-stream-hub.png');
+    width:72px;
+    height:72px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $mdpi-ratio) {
+    background-image: url('../img/mdpi/icon-stream-hub.png');
+    width:48px;
+    height:48px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $ldpi-ratio) {
+    background-image: url('../img/ldpi/icon-stream-hub.png');
+    width:36px;
+    height:36px;
+  }
+}
+
+.icon-live{
+  background-image: url('../img/xhdpi/icon-live.png');
+  width:96px;
+  height:96px;
+
+  @media screen and (-webkit-device-pixel-ratio: $xxxhdpi-ratio) {
+    background-image: url('../img/xhdpi/icon-live.png');
+    width:96px;
+    height:96px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $xxhdpi-ratio) {
+    background-image: url('../img/xhdpi/icon-live.png');
+    width:96px;
+    height:96px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $xhdpi-ratio) {
+    background-image: url('../img/xhdpi/icon-live.png');
+    width:96px;
+    height:96px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $hdpi-ratio) {
+    background-image: url('../img/hdpi/icon-live.png');
+    width:72px;
+    height:72px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $mdpi-ratio) {
+    background-image: url('../img/mdpi/icon-live.png');
+    width:48px;
+    height:48px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $ldpi-ratio) {
+    background-image: url('../img/ldpi/icon-live.png');
+    width:36px;
+    height:36px;
+  }
+}
+
+.icon-store{
+  background-image: url('../img/xhdpi/icon-store.png');
+  width:96px;
+  height:96px;
+
+  @media screen and (-webkit-device-pixel-ratio: $xxxhdpi-ratio) {
+    background-image: url('../img/xhdpi/icon-store.png');
+    width:96px;
+    height:96px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $xxhdpi-ratio) {
+    background-image: url('../img/xxhdpi/icon-store.png');
+    width:144px;
+    height:144px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $xhdpi-ratio) {
+    background-image: url('../img/xhdpi/icon-store.png');
+    width:96px;
+    height:96px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $hdpi-ratio) {
+    background-image: url('../img/hdpi/icon-store.png');
+    width:72px;
+    height:72px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $mdpi-ratio) {
+    background-image: url('../img/mdpi/icon-store.png');
+    width:48px;
+    height:48px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $ldpi-ratio) {
+    background-image: url('../img/ldpi/icon-store.png');
+    width:36px;
+    height:36px;
+  }
+}
+
+.icon-bgan{
+  background-image: url('../img/xhdpi/icon-bgan.png');
+  width:96px;
+  height:96px;
+
+  @media screen and (-webkit-device-pixel-ratio: $xxxhdpi-ratio) {
+    background-image: url('../img/xhdpi/icon-bgan.png');
+    width:96px;
+    height:96px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $xxhdpi-ratio) {
+    background-image: url('../img/xhdpi/icon-bgan.png');
+    width:96px;
+    height:96px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $xhdpi-ratio) {
+    background-image: url('../img/xhdpi/icon-bgan.png');
+    width:96px;
+    height:96px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $hdpi-ratio) {
+    background-image: url('../img/hdpi/icon-bgan.png');
+    width:72px;
+    height:72px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $mdpi-ratio) {
+    background-image: url('../img/mdpi/icon-bgan.png');
+    width:48px;
+    height:48px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $ldpi-ratio) {
+    background-image: url('../img/ldpi/icon-bgan.png');
+    width:36px;
+    height:36px;
+  }
+}
+
+.icon-audio-video{
+  background-image: url('../img/xhdpi/icon-audio.png');
+  width:96px;
+  height:96px;
+
+  @media screen and (-webkit-device-pixel-ratio: $xxxhdpi-ratio) {
+    background-image: url('../img/xhdpi/icon-audio.png');
+    width:96px;
+    height:96px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $xxhdpi-ratio) {
+    background-image: url('../img/xhdpi/icon-audio.png');
+    width:96px;
+    height:96px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $xhdpi-ratio) {
+    background-image: url('../img/xhdpi/icon-audio.png');
+    width:96px;
+    height:96px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $hdpi-ratio) {
+    background-image: url('../img/hdpi/icon-audio.png');
+    width:72px;
+    height:72px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $mdpi-ratio) {
+    background-image: url('../img/mdpi/icon-audio.png');
+    width:48px;
+    height:48px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $ldpi-ratio) {
+    background-image: url('../img/ldpi/icon-audio.png');
+    width:36px;
+    height:36px;
+  }
+}
+
+.icon-connectivite{
+  background-image: url('../img/xhdpi/icon-connectivite.png');
+  width:96px;
+  height:96px;
+
+  @media screen and (-webkit-device-pixel-ratio: $xxxhdpi-ratio) {
+    background-image: url('../img/xhdpi/icon-connectivite.png');
+    width:96px;
+    height:96px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $xxhdpi-ratio) {
+    background-image: url('../img/xhdpi/icon-connectivite.png');
+    width:96px;
+    height:96px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $xhdpi-ratio) {
+    background-image: url('../img/xhdpi/icon-connectivite.png');
+    width:96px;
+    height:96px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $hdpi-ratio) {
+    background-image: url('../img/hdpi/icon-connectivite.png');
+    width:72px;
+    height:72px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $mdpi-ratio) {
+    background-image: url('../img/mdpi/icon-connectivite.png');
+    width:48px;
+    height:48px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $ldpi-ratio) {
+    background-image: url('../img/ldpi/icon-connectivite.png');
+    width:36px;
+    height:36px;
+  }
+}
+
+.icon-tab{
+  display: inline-block;
+}
+
+.icon-tab-live{
+  background-image: url('../img/xhdpi/icon-tab-live-on.png');
+  width:64px;
+  height:64px;
+
+  @media screen and (-webkit-device-pixel-ratio: $xxxhdpi-ratio) {
+    background-image: url('../img/xhdpi/icon-tab-live-on.png');
+    width:64px;
+    height:64px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $xxhdpi-ratio) {
+    background-image: url('../img/xhdpi/icon-tab-live-on.png');
+    width:64px;
+    height:64px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $xhdpi-ratio) {
+    background-image: url('../img/xhdpi/icon-tab-live-on.png');
+    width:64px;
+    height:64px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $hdpi-ratio) {
+    background-image: url('../img/hdpi/icon-tab-live-on.png');
+    width:48px;
+    height:48px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $mdpi-ratio) {
+    background-image: url('../img/mdpi/icon-tab-live-on.png');
+    height:17px;
+    width:28px;
+  }
+
+  @media screen and (-webkit-device-pixel-ratio: $ldpi-ratio) {
+    background-image: url('../img/ldpi/icon-tab-live-on.png');
+    width:24px;
+    height:24px;
+  }
+}
+
+.icon-tab-store{
+  background-image: url('../img/xhdpi/icon-tab-store-off.png');
+  width: 64px;
+  height: 64px;
+
+  @media screen and (-webkit-device-pixel-ratio: $xxxhdpi-ratio) {
+    background-image: url('../img/xhdpi/icon-tab-store-off.png');
+    width: 64px;
+    height: 64px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $xxhdpi-ratio) {
+    background-image: url('../img/xhdpi/icon-tab-store-off.png');
+    width: 64px;
+    height: 64px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $xhdpi-ratio) {
+    background-image: url('../img/xhdpi/icon-tab-store-off.png');
+    width: 64px;
+    height: 64px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $hdpi-ratio) {
+    background-image: url('../img/hdpi/icon-tab-store-off.png');
+    width: 48px;
+    height: 48px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $mdpi-ratio) {
+    background-image: url('../img/mdpi/icon-tab-store-off.png');
+    width: 32px;
+    height: 32px;
+  }
+  @media screen and (-webkit-device-pixel-ratio: $ldpi-ratio) {
+    background-image: url('../img/ldpi/icon-tab-store-off.png');
+    width: 24px;
+    height: 24px;
+  }
+}
